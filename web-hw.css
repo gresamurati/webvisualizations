@@ -1,0 +1,64 @@
+html {
+    min-height: 100%;
+    position: relative;
+}
+
+
+img {
+    
+    margin-right: 20px;
+    float: left;
+    width:400px;
+
+  }
+
+
+.container {
+    background-color:white;
+    margin: 20px;
+}
+
+.box{
+    background-color: white;
+    padding: 20px;
+    margin:20px;
+    margin-top:40px;
+    width:100%;
+    height:90%;
+
+}
+
+.images {
+    text-align: center;
+    width:100%;
+    background-color:white ;
+
+}
+.images a img {
+    width:140px;
+}
+
+@media (max-width: 480px) {
+    .navbar li {
+      padding: 10px;
+    }
+  
+    .post {
+      margin-right: 30px;
+      margin-left: 30px;
+    }
+  
+    .navbar ul {
+      visibility: visible;
+    }
+  
+    #nav-select {
+      visibility: visible;
+    }
+  }
+  
+  .jumbotron{
+    width:200%;
+    height:200%;
+  }
+
